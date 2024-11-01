@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0px;
+}
+nav a {
+    color: var(--color-black);
+}
+nav .logo {
+    height: 48px;
+    width: 177px;
+}
+nav .manu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+nav .manu a {
+    font-size: var(--fs-p);
+    color: var(--color-p);
+    font-weight: 600;
+    transition: all 150ms ease-in-out;
+}
+nav .manu a:hover {
+    color: var(--color-black);
+
+}
+nav button {
+    background-color: var(--color-black);
+    padding: 18px 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+nav button a {
+    font-size: var(--fs-navlink);
+    font-weight: 600;
+    color: var(--color-white);
+
+}

@@ -1,0 +1,59 @@
+.simple {
+    display: flex;
+    gap: 120px;
+    margin-top: 240px;
+}
+
+.simple .container {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+.simple .discribe h2 {
+    font-size: var(--fs-h2);
+    font-weight: 600;
+    
+}
+
+.simple .discribe .box {
+    display: flex;
+    gap: 63px;
+}
+
+.simple .discribe .box .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.simple .discribe .box .left .logo {
+    height: 72px;
+    width: 72px;
+    background-color: var(--color-black);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.simple .discribe .box .left .spen {
+    height: 100px;
+    width: 2px;
+    background-color: var(--color-gray);
+    border-radius: 50px;
+}
+.simple .discribe .box .right h3 {
+    font-size: var(--fs-h3);
+    font-weight: 700;
+
+}
+.simple .discribe .box .right p {
+    font-size: var(--fs-pbig);
+    font-weight: 500;
+    color: var(--color-p);
+    line-height: 165%;
+    margin-top: 21px;
+}

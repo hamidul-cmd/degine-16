@@ -1,0 +1,55 @@
+.services {
+    margin-top: 173px;
+    display: flex;
+    flex-direction: column;
+    gap: 98px;
+
+}
+
+.services .hading {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.services .hading .line {
+    height: 3px;
+    width: 100px;
+    border-radius: 10%;
+    background-color: var(--color-black);
+}
+
+.services .hading h2 {
+    font-size: var(--fs-h2);
+    color: var(--color-black);
+    font-weight: 600;
+}
+
+.services .boxs {
+    display: flex;
+    gap: 55px;
+}
+
+.services .boxs .box {
+    height: 184px;
+    width: 466px;
+    display: flex;
+    gap: 35px;
+    align-items: flex-start;
+}
+
+.services .boxs .box .discreption h3 {
+    font-size: var(--fs-h3);
+    color: var(--color-black);
+    font-weight: 600;
+
+}
+
+.services .boxs .box .discreption p {
+    font-size: var(--fs-p);
+    color: var(--color-p);
+    font-weight: 500;
+    line-height: 165%;
+    margin-top: 35px;
+
+}
